@@ -1,6 +1,5 @@
-# compiled tex docs
-karen-cranston-cv.pdf
-karen-cranston-resume.pdf
+# directory of templates
+CVtemplates/
 
 # rest of this file from
 # from https://github.com/github/gitignore/blob/master/TeX.gitignore
@@ -20,7 +19,7 @@ karen-cranston-resume.pdf
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.eps
-# *.pdf
+*.pdf
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
 *.bbl
