@@ -3,17 +3,17 @@
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
 \usepackage{graphicx}
 \usepackage[hyphens]{url}
-%\usepackage{breakurl}
 \usepackage{fancyhdr}
+\usepackage{hyperref}
 \usepackage{parskip}
+
 \renewcommand{\arraystretch}{2}
+\hypersetup{backref,  urlcolor=blue, colorlinks=true, citecolor=black, linkcolor=black, hyperindex=true}
 
 \title{Brief Article}
 \author{The Author}
-%\date{}                                           % Activate to display a given date or no date
 \pagestyle{fancy}
 \lhead{\bf \large Karen A. Cranston} 
-%\setlength{\parindent}{10 pt}
 
 \begin{document}
 
@@ -21,8 +21,8 @@ Department of Biology  \\
 Duke University \\
 Box 90338, 130 Science Drive, Durham NC, USA 27708 \\
 karen.cranston@duke.edu \\
-Twitter: @kcranstn \\
-ORCID: 0000-0002-4798-9499
+Twitter: \href{https://twitter.com/kcranstn}{@kcranstn} \\
+ORCID: \href{http://orcid.org/0000-0002-4798-9499}{0000-0002-4798-9499}
 
 \section*{Education}
 \begin{table}[h]
@@ -49,7 +49,8 @@ ORCID: 0000-0002-4798-9499
 %Pubs
 \section*{Peer-reviewed publications}
 
-McTavish, E. J., Hinchliff, C. E., Allman, J. F., Brown, J. W., Cranston, K. A., Holder, M. T., ... \& Smith, S. A. (2015). Phylesystem: a git-based data store for community curated phylogenetic estimates. Bioinformatics, btv276. \url{http://dx.doi.org/10.1093/bioinformatics/btv276}
+McTavish, E. J., Hinchliff, C. E., Allman, J. F., Brown, J. W., Cranston, K. A., Holder, M. T., ... \& Smith, S. A. (2015). Phylesystem: a git-based data store for community curated phylogenetic estimates. Bioinformatics, btv276. \url{http://dx.doi.org/10.1093/bioinformatics/btv276} \\
+\textit{In the Altmetrics Top 100 for 2015 and in top 5\% overall; 53 news reports; 832 Tweets, 14 blogs; https://www.altmetric.com/details/4529894}
 
 Ksepka, D.T., Parham, J.F., Allman, J.F., Benton, M.J., Carrano, M.T., Cranston, K.A., ... \& Warnock, R.C.M. (2015) The Fossil Calibration Database, A New Resource for Divergence Dating. \textit{Systematic Biology}. \url{http://dx.doi.org/10.1093/sysbio/syv025}
 
@@ -83,20 +84,22 @@ Cranston, K., \& Rannala, B. (2005). Closing the gap between rocks and clocks. H
 %In-prep
 \section*{Commentaries, preprints, other non-peer reviewed}
 
-Smith, S.A., Cranston, K.A., Allman, J.F., Brown, J.W., Burleigh, J.G., ...\& Williams, T. (2014) Synthesis of phylogeny and taxonomy into a comprehensive tree of life. bioRxiv preprint \url{http://dx.doi.org/10.1101/012260}
+(published preprints not shown)
 
-Katz, D.S., Choi, S.T., Wilkins-Diehr, N., Hong, N.C., Venters, C.C., ... \& Littauer, R. Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2). arXiv preprint \url{http://arxiv.org/abs/1507.01715}
+Wilson, G., Bryan, J., Cranston, K., Kitzes, J., Nederbragt, L., \& Teal, T. K. (2016). Good Enough Practices in Scientific Computing. arXiv preprint \href{http://arxiv.org/abs/1609.00037}{arXiv:1609.00037}.
 
-Katz, D. S., Allen, G., Hong, N. C., Cranston, K., Parashar, M., Proctor, D., ... \& Wilkins-Diehr, N. (2014). Second Workshop on on Sustainable Software for Science: Practice and Experiences (WSSSPE2): Submission, Peer-Review and Sorting Process, and Results. arXiv preprint \url{http://arxiv.org/abs/1411.3464}.
+Katz, D.S., Choi, S.T., Wilkins-Diehr, N., Hong, N.C., Venters, C.C., ... \& Littauer, R. Report on the Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2). arXiv preprint \href{http://arxiv.org/abs/1507.01715}{arXiv:1507.01715}
 
-Vision, T., \& Cranston, K. A. (2014) Open data for evolutionary synthesis: an introduction to the NESCent collection. Nature Scientific Data. \url{http://dx.doi.org/10.1038/sdata.2014.30} 
+Katz, D. S., Allen, G., Hong, N. C., Cranston, K., Parashar, M., Proctor, D., ... \& Wilkins-Diehr, N. (2014). Second Workshop on on Sustainable Software for Science: Practice and Experiences (WSSSPE2): Submission, Peer-Review and Sorting Process, and Results. arXiv preprint \href{http://arxiv.org/abs/1411.3464}{arXiv:1411.3464}.
 
-Cranston, K. A., Blackburn, D., Brown, J. W., Dececchi, A., Gardner, N., Greshake, B., ... \& Wolfe, J. (2014): Simple rules for sharing phylogenetic data. figshare. \url{http://dx.doi.org/10.6084/m9.figshare.997763} 
+Vision, T., \& Cranston, K. A. (2014) Open data for evolutionary synthesis: an introduction to the NESCent collection. Nature Scientific Data. \href{http://dx.doi.org/10.1038/sdata.2014.30}{doi:10.1038/sdata.2014.30}
 
-Rees, J. A., Cranston, K. A., Lapp, H., \& Vision, T. (2013): Response to GBIF request for consultation on data licenses. figshare. \url{http://dx.doi.org/10.6084/m9.figshare.799766} 
+Cranston, K. A., Blackburn, D., Brown, J. W., Dececchi, A., Gardner, N., Greshake, B., ... \& Wolfe, J. (2014): Simple rules for sharing phylogenetic data. figshare. \href{http://dx.doi.org/10.6084/m9.figshare.997763}{doi:10.6084/m9.figshare.997763}
+
+Rees, J. A., Cranston, K. A., Lapp, H., \& Vision, T. (2013): Response to GBIF request for consultation on data licenses. figshare. \href{http://dx.doi.org/10.6084/m9.figshare.799766}{doi:10.6084/m9.figshare.799766}
 
 Cranston, K. A., Vision, T., O'Meara, B., \& Lapp, H. (2013): A grassroots approach to software sustainability. figshare.
-\url{http://dx.doi.org/10.6084/m9.figshare.790739} 
+\href{http://dx.doi.org/10.6084/m9.figshare.790739}{doi:10.6084/m9.figshare.790739}
 
 % Invited talks
 \section*{Invited talks}
@@ -151,14 +154,15 @@ Cranston, K. A., Vision, T., O'Meara, B., \& Lapp, H. (2013): A grassroots appro
 % Other 'lookin good' stuff
 \section*{Professional activities}
 \begin{itemize}
+\item{Board of Directors: Open Bioinformatics Foundation (\url{https://open-bio.org/}), 2015-present}
 \item{Co-organizer: Reproducible science hackathon (\url{https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014}), 2014}
 \item{Data Carpentry founding board member (\url{http://datacarpentry.org}), 2014-present}
 \item{Organization administrator for NESCent Google Summer of Code participation, 2011-2013}
-\item{Program committee, Second Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE), \url{http://wssspe.researchcomputing.org.uk}, 2014}
+\item{Program committee, Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE), \url{http://wssspe.researchcomputing.org.uk}, 2014 and 2016}
 \item{Panelist, First Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE), \url{http://wssspe.researchcomputing.org.uk}, 2013}
 \item{Society of Systematic Biology council, 2012-2014}
 \item{Systematic Biology Editorial Board, 2011-present}
-\item{Leadership team, Informatics for Evolutionary Biology (iEvoBio, \url{http://ievobio.org}) conference, 2013 (chair for 2014)}
+\item{Leadership team, Informatics for Evolutionary Biology (iEvoBio, \url{http://ievobio.org}) conference, 2013-2015}
 \item{Leadership team, Hackathons, Interoperability and Phylogenetics (HIP) NESCent working group, 2011-present}
 \item{Phyloinformatics Research Foundation board member, 2010-present}
 \item{Team lead, iPlant Tree Of Life working group on Tree Visualization, 2009-2012}
@@ -175,8 +179,7 @@ Cranston, K. A., Vision, T., O'Meara, B., \& Lapp, H. (2013): A grassroots appro
 \section*{Teaching}
 \begin{itemize}
 \item{Coordinator: NESCent Academy (\url{http://academy.nescent.org}): a series of hands-on summer workshops in Evolutionary Biology and Informatics, 2010-2014.}
-\item{Instructor: Data Carpentry (\url{http://datacarpentry.org}), 2014-present}
-\item{Instructor: Software Carpentry (\url{http://software-carpentry.org}), 2012-present}
+\item{Certified Instructor: Software and Data Carpentry (\url{http://software-carpentry.org} \& \url{http://datacarpentry.org}), 2013-present}
 \item{Instructor: Computational biology workshops, Wuhan Institute of Virology and Fudan University, China, 2013}
 \item{Instructor: Phylogenetics workshops, Kenya Medical Research Institute, 2012}
 \item{Instructor: Phylogenetics workshop, Research Experience for Undergraduates (REU) Program, Field Museum of Natural History, 2010}
